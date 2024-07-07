@@ -1,0 +1,19 @@
+/* driver */
+
+@font-face {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: 150;
+    font-display: swap;
+    src: url(https://github.com/mchoorah/Apple-Fonts-San-Francisco-New-York/blob/5a8fc7d569fa2b4fb5fe9a63ad66e5cf9ae00eae/SF%20Pro/SF-Pro.ttf) format("ttf");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root {
+    --fontTitleWide: "SF Pro";
+}
+
+.title {
+    font-family: var(--fontTitleWide);
+}
