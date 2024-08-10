@@ -1,0 +1,5 @@
+name: driver
+stylesheets:
+  - file: main.scss
+    name: Main Stylesheet
+    description: The main stylesheet for the theme
